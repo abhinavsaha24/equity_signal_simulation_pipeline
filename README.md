@@ -23,12 +23,16 @@ This allows the project to evaluate how predictive models might perform in a sim
 ## System Architecture
 Stock Market Data
 ↓
+
 Machine Learning Model (Python)
 ↓
+
 Prediction Files (CSV)
 ↓
+
 Trading Simulation Engine (C++)
 ↓
+
 Portfolio Performance Evaluation
 ---
 
@@ -160,4 +164,4 @@ Possible next steps for the project include:
 
 License
 
-This project is licensed under the MIT License.
+*This project is licensed under the MIT License.*
