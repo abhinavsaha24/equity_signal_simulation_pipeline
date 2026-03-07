@@ -126,14 +126,21 @@ This produces charts comparing predicted prices with actual prices.
 Calculate Portfolio Metrics
 
 Run the portfolio analysis script:
+
 python analysis/portfolio_metrics.py
+
 Example output:
+
 Average Return: 0.001347
+
 Volatility: 0.027737
+
 Sharpe Ratio: 0.049
+
 The Sharpe Ratio measures risk-adjusted returns and is widely used in quantitative finance.
 
 Example Prediction Visualization
+
 Apple (AAPL)
 ![AAPL Chart](AAPL_prediction_chart.png)
 
@@ -152,7 +159,9 @@ Workflow
 
 5.Evaluate portfolio performance and visualize results.
 
+
 What I Learned
+
 
 Working on this project helped me understand:
 
@@ -164,7 +173,9 @@ Working on this project helped me understand:
 
 -structuring a research-style software project
 
+
 Future Improvements
+
 
 Possible next steps for the project include:
 
