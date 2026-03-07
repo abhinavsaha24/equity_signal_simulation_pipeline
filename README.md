@@ -109,7 +109,7 @@ LICENSE
 
 Run the machine learning model:
 
-python python_al/predictor.py
+--python python_al/predictor.py
 
 This generates prediction files inside the predictions folder.
 
@@ -117,7 +117,7 @@ Run Trading Simulation
 
 Compile the C++ trading engine:
 
-g++ cpp_engine/trading_engine.cpp -o trading_engine
+--g++ cpp_engine/trading_engine.cpp -o trading_engine
 
 Run the trading engine:
 
@@ -127,7 +127,7 @@ Generate Prediction Charts
 
 Run the visualization script:
 
-python analysis/visualize.py
+--python analysis/visualize.py
 
 This produces charts comparing predicted prices with actual prices.
 
@@ -135,7 +135,7 @@ Calculate Portfolio Metrics
 
 Run the portfolio analysis script:
 
-python analysis/portfolio_metrics.py
+--python analysis/portfolio_metrics.py
 
 Example output:
 
@@ -149,10 +149,10 @@ The Sharpe Ratio measures risk-adjusted returns and is widely used in quantitati
 
 Example Prediction Visualization
 
-Apple (AAPL)
+[]Apple (AAPL)
 ![AAPL Chart](AAPL_prediction_chart.png)
 
-Tesla (TSLA)
+[]Tesla (TSLA)
 ![TSLA Chart](TSLA_prediction_chart.png)
 
 
