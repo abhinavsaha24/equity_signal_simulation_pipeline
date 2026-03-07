@@ -150,10 +150,10 @@ The Sharpe Ratio measures risk-adjusted returns and is widely used in quantitati
 Example Prediction Visualization
 
 []Apple (AAPL)
-![AAPL Chart](AAPL_prediction_chart.png)
+![AAPL Chart](chart/AAPL_prediction_chart.png)
 
 []Tesla (TSLA)
-![TSLA Chart](TSLA_prediction_chart.png)
+![TSLA Chart](chart/TSLA_prediction_chart.png)
 
 
 
