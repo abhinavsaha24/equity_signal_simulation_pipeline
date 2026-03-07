@@ -127,7 +127,7 @@ Generate Prediction Charts
 
 Run the visualization script:
 
---python analysis/visualize.py
+analysis/--python analysis/visualize.py
 
 This produces charts comparing predicted prices with actual prices.
 
@@ -137,7 +137,7 @@ Run the portfolio analysis script:
 
 --python analysis/portfolio_metrics.py
 
-Example output:
+--Example output:
 
 Average Return: 0.001347
 
