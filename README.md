@@ -83,15 +83,23 @@ Stocks used in this analysis include:
 ---
 
 ## Project Structure
+
 ai-quant-trading-system
 
 data/ → historical stock datasets
+
 python_al/ → machine learning model
+
 cpp_engine/ → trading simulator
+
 predictions/ → generated prediction files
+
 analysis/ → visualization and portfolio metrics
+
 README.md → project documentation
+
 LICENSE
+
 ---
 
 ## Running the Project
