@@ -102,18 +102,20 @@ LICENSE
 
 ---
 
-## Running the Project
 
+## Running the Project
 ### Generate Predictions
 
 Run the machine learning model:
 
 python python_al/predictor.py
+
 This generates prediction files inside the predictions folder.
 Run Trading Simulation
 
 Compile the C++ trading engine:
 g++ cpp_engine/trading_engine.cpp -o trading_engine
+
 Run the trading engine:
 trading_engine
 Generate Prediction Charts
