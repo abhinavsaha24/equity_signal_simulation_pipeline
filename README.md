@@ -147,6 +147,8 @@ Apple (AAPL)
 Tesla (TSLA)
 ![TSLA Chart](TSLA_prediction_chart.png)
 
+
+
 Workflow
 
 1.Load historical stock market data.
@@ -158,6 +160,10 @@ Workflow
 4.Use the C++ trading engine to simulate trades.
 
 5.Evaluate portfolio performance and visualize results.
+
+
+
+
 
 
 What I Learned
@@ -174,6 +180,8 @@ Working on this project helped me understand:
 -structuring a research-style software project
 
 
+
+
 Future Improvements
 
 
@@ -188,6 +196,8 @@ Possible next steps for the project include:
 -integrating real-time market data APIs
 
 -improving the trading strategy logic
+
+
 
 License
 
