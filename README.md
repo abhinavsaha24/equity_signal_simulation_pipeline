@@ -8,7 +8,7 @@ The goal of the project was to build a small research pipeline that demonstrates
 
 ---
 
-# Project Overview
+## Project Overview
 
 The system works in three main stages:
 
@@ -20,21 +20,19 @@ This allows the project to evaluate how predictive models might perform in a sim
 
 ---
 
-# System Architecture
-
-Stock Market Data  
-↓  
-Machine Learning Model (Python)  
-↓  
-Prediction Files (CSV)  
-↓  
-Trading Simulation Engine (C++)  
-↓  
-Portfolio Performance Evaluation  
-
+## System Architecture
+Stock Market Data
+↓
+Machine Learning Model (Python)
+↓
+Prediction Files (CSV)
+↓
+Trading Simulation Engine (C++)
+↓
+Portfolio Performance Evaluation
 ---
 
-# Features
+## Features
 
 - Stock price prediction using machine learning
 - Multi-stock dataset support
@@ -46,7 +44,7 @@ Portfolio Performance Evaluation
 
 ---
 
-# Technologies Used
+## Technologies Used
 
 - Python
 - Pandas
@@ -58,7 +56,7 @@ Portfolio Performance Evaluation
 
 ---
 
-# Dataset
+## Dataset
 
 The project uses historical stock market data sourced from Kaggle.
 
@@ -74,7 +72,7 @@ Stocks used in this analysis include:
 
 ---
 
-# Project Structure
+## Project Structure
 ai-quant-trading-system
 
 data/ → historical stock datasets
@@ -86,33 +84,27 @@ README.md → project documentation
 LICENSE
 ---
 
-# Running the Project
+## Running the Project
 
-## Generate Predictions
+### Generate Predictions
 
 Run the machine learning model:
+
+```bash
 python python_al/predictor.py
-This generates prediction files inside the `predictions` folder.
-
----
-
-## Run Trading Simulation
+This generates prediction files inside the predictions folder.
+Run Trading Simulation
 
 Compile the C++ trading engine:
 g++ cpp_engine/trading_engine.cpp -o trading_engine
 Run the trading engine:
 trading_engine
----
-
-## Generate Prediction Charts
+Generate Prediction Charts
 
 Run the visualization script:
 python analysis/visualize.py
 This produces charts comparing predicted prices with actual prices.
-
----
-
-## Calculate Portfolio Metrics
+Calculate Portfolio Metrics
 
 Run the portfolio analysis script:
 python analysis/portfolio_metrics.py
@@ -122,53 +114,51 @@ Volatility: 0.027737
 Sharpe Ratio: 0.049
 The Sharpe Ratio measures risk-adjusted returns and is widely used in quantitative finance.
 
----
+Example Prediction Visualization
+Apple (AAPL)
+![AAPL Chart](AAPL_prediction_chart.png)
 
-# Example Prediction Visualization
+Tesla (TSLA)
+![TSLA Chart](TSLA_prediction_chart.png)
 
-### Apple (AAPL)
+Workflow
 
-![AAPL Chart](analysis/AAPL_prediction_chart.png)
+1.Load historical stock market data.
 
-### Tesla (TSLA)
+2.Train a machine learning model to predict future prices.
 
-![TSLA Chart](analysis/TSLA_prediction_chart.png)
+3.Generate prediction files for multiple stocks.
 
----
+4.Use the C++ trading engine to simulate trades.
 
-# Workflow
+5.Evaluate portfolio performance and visualize results.
 
-1. Load historical stock market data.
-2. Train a machine learning model to predict future prices.
-3. Generate prediction files for multiple stocks.
-4. Use the C++ trading engine to simulate trades.
-5. Evaluate portfolio performance and visualize results.
-
----
-
-# What I Learned
+What I Learned
 
 Working on this project helped me understand:
 
-- applying machine learning to financial time-series data
-- building a simple trading simulation pipeline
-- combining Python data analysis with C++ systems programming
-- structuring a research-style software project
+-applying machine learning to financial time-series data
 
----
+-building a simple trading simulation pipeline
 
-# Future Improvements
+-combining Python data analysis with C++ systems programming
+
+-structuring a research-style software project
+
+Future Improvements
 
 Possible next steps for the project include:
 
-- using deep learning models such as LSTM for time-series prediction
-- implementing portfolio optimization strategies
-- adding more financial risk metrics
-- integrating real-time market data APIs
-- improving the trading strategy logic
+-using deep learning models such as LSTM for time-series prediction
 
----
+-implementing portfolio optimization strategies
 
-# License
+-adding more financial risk metrics
+
+-integrating real-time market data APIs
+
+-improving the trading strategy logic
+
+License
 
 This project is licensed under the MIT License.
