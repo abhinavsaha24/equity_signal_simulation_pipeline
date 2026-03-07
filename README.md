@@ -127,7 +127,7 @@ Generate Prediction Charts
 
 Run the visualization script:
 
-analysis/--python analysis/visualize.py
+/--python analysis/visualize.py
 
 This produces charts comparing predicted prices with actual prices.
 
