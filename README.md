@@ -157,7 +157,7 @@ Example Prediction Visualization
 
 
 
-Workflow
+()Workflow
 
 1.Load historical stock market data.
 
@@ -174,7 +174,7 @@ Workflow
 
 
 
-What I Learned
+()What I Learned
 
 
 Working on this project helped me understand:
@@ -190,7 +190,7 @@ Working on this project helped me understand:
 
 
 
-Future Improvements
+()Future Improvements
 
 
 Possible next steps for the project include:
@@ -207,6 +207,6 @@ Possible next steps for the project include:
 
 
 
-License
+##License
 
 *This project is licensed under the MIT License.*
