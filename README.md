@@ -90,7 +90,6 @@ LICENSE
 
 Run the machine learning model:
 
-```bash
 python python_al/predictor.py
 This generates prediction files inside the predictions folder.
 Run Trading Simulation
