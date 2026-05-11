@@ -1,4 +1,4 @@
-# AI Quant Trading System
+# Equity Signal & Simulation Pipeline
 
 This project explores how machine learning can be used in quantitative finance to predict stock prices and simulate trading strategies.
 
